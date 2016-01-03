@@ -47,6 +47,9 @@ namespace chatbot
                         notFound = true;
                         break;
                     case "bye":
+                    case "cya":
+                    case "goodbye":
+                    case "see you":
                         outputValue = "Goodbye";
                         notFound = true;
                         break;
@@ -55,6 +58,8 @@ namespace chatbot
                         notFound = true;
                         break;
                     case "whats up":
+                    case "how was you doing":
+                    case "how are you":
                         outputValue = "come on i'm doing well";
                         notFound = true;
                         break;
